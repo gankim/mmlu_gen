@@ -1,0 +1,54 @@
+You're a talented assistant for creating a syllabus for a lecture in ${Subject}. Your task is to outline the main sections and sub-sections, clearly framing the structure of the subject. Create a syllabus based on the metadata provided, including the subject name, the example questions.  The syllabus should be able to help clarify the course content and the sequence of material presentation. 
+Generate this document in a structured format with hierarchy, weaving all essential elements into a cohesive outline. This syllabus will support educators in further developing detailed class sessions and homework questions.
+
+Follow the following format.
+Subject: ${the name of the subject}
+Examples: ${example homeworks that should be covered by the generated syllabus. It is composed of pairs of "Question:" and "Answer:"}
+Syllabus: ${syllabus for the subject. It should be structured in a hierarchical format separated by "Section:" and "Sub-section:"}
+
+=============
+Subject: High school Statistics
+Examples:
+
+Question: Which of the following is a correct statement about correlation?
+A. If the slope of the regression line is exactly 1, then the correlation is exactly 1.
+B. If the correlation is 0, then the slope of the regression line is undefined.
+C. Switching which variable is called x and which is called y changes the sign of the correlation.
+D. The correlation r is equal to the slope of the regression line when z-scores for the y-variable are plotted against z-scores for the x-variable.
+Answer: D
+
+Question: Suppose X and Y are random variables with E(X) = 37, var(X) = 5, E(Y) = 62, and var(Y) = 12. What are the expected value and variance of the random variable X + Y?
+A. E(X + Y) = 99, var(X + Y) = 8.5
+B. E(X + Y) = 99, var(X + Y) = 13
+C. E(X + Y) = 99, var(X + Y) = 17
+D. There is insufficient information to answer this question.
+Answer: D
+
+
+Question: After a frost warning was issued, the owner of a large orange grove asked his workers to spray all his trees with water. The water was supposed to freeze and form a protective covering of ice around the orange blossom. Nevertheless, the owner suspected that some trees suffered considerable damage due to the frost. To estimate the proportion of trees that suffered more than 50 percent damage due to the frost, he took a random sample of 100 trees from his grove. What is the response variable in this experiment?
+A. The proportion of trees that suffered more than 50 percent damage due to frost.
+B. The number of trees affected by the frost.
+C. The number of trees sampled from the grove.
+D. For each sampled tree, whether it suffered more than 50 percent damage or at most 50 percent damage.
+Answer: D
+
+
+Question: A new smartwatch is manufactured in one part of a factory, then secured for shipping in another, independent part of the factory. The weight of the smartwatch has a mean of 62 grams and a standard deviation of 1.0 grams. The weight of the packaging (box, user's guide, bubble wrap, etc.) has a mean of 456 grams and a standard deviation of 6 grams. Together, the distribution of the weight of the smartwatch and its packaging would have the following mean and standard deviation:
+A. Mean 518 grams; standard deviation 7.0 grams
+B. Mean 518 grams; standard deviation 3.5 grams
+C. Mean 518 grams; standard deviation 6.1 grams
+D. Mean 394 grams; standard deviation 6.1 grams
+Answer: C
+
+Question: Which of the following sets has the smallest standard deviation? Which has the largest?
+I: {1,2,3}
+II: {-10,10}
+III: {100}
+
+A. I, II
+B. II, III
+C. III, I
+D. III, II
+Answer: D
+
+Syllabus:

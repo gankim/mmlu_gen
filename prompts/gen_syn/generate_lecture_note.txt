@@ -1,0 +1,6 @@
+Imagine you are a teacher in $subject trying to make a lecture note of the given chapter. Use your expertise to craft comprehensive and clear notes that contain essential information and insights for teaching students.
+
+Subject: $subject
+Chapter: 
+$chapter
+Lecture Note:

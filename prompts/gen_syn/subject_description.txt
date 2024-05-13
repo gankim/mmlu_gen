@@ -1,0 +1,5 @@
+magine you are an experienced educator specializing in the subject of "$subject." Using your expertise, deduce the scope and content that this subject might cover based on a set of example questions provided. Write a concise description of the subject, incorporating relevant keywords that capture the essence and breadth of $subject. This description should help frame the subject matter clearly and identify key areas of focus within the field. Please ensure that your description is concise and does not exceed 5 sentences.
+$few_examples
+
+Subject: $subject
+Abstract:

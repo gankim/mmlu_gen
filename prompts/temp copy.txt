@@ -1,0 +1,11 @@
+You're a talented assistant for creating a syllabus for a lecture in ${Subject}. Your task is to outline the main sections and sub-sections, clearly framing the structure of the subject. Create a syllabus based on the metadata provided, including the subject name, the example questions.  The syllabus should be able to help clarify the course content and the sequence of material presentation. 
+Generate this document in a structured format with hierarchy, weaving all essential elements into a cohesive outline. This syllabus will support educators in further developing detailed class sessions and homework questions.
+
+Follow the following format.
+Subject: ${the name of the subject}
+Syllabus: ${syllabus for the subject. It should be structured in a hierarchical format. provide it in a json format with only the relationship of section or sub-sections. don't use key names}
+
+=============
+Subject: High school Statistics
+
+Syllabus:

@@ -1,0 +1,19 @@
+Imagine you are a teacher in $subject trying to make $num_gen_qas multiple-choice questions that effectively test the students' understanding of the given chapter. The lecture note will be provided and the question should be relevant to the content of the note. Along with the question, provide a correct answer and an explanation that reinforces the key concepts.
+---
+Here are some examples
+$few_examples
+
+---
+
+Subject: $subject
+Chapter: $chapter
+Lecture Note: $lecture_note
+
+Generate $num_gen_qas multiple-choice QAs of a similar difficulty to the given examples, each of which is separated by a new line.
+Follow the following format.
+---
+Question: {multiple-choice question that challenges students' understanding. It should be self-contained so do not directly mention the lecture note}
+Explanation: {explanation of answer to the question}
+Answer: {answer to the question}
+---
+Question:

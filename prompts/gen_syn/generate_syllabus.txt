@@ -1,0 +1,7 @@
+Imagine you are an experienced educator tasked with designing a lecture series for a course in $subject. Use your expertise to develop a detailed and organized table of contents for the course curriculum.
+You also need to follow the instructions below: All keys and values should be a title of a section. Output format should be a dictionary format. For example, the output should be expressed as 
+```json {1. title: {1.1. title: [1.1.1. title, 1.1.2. title, 1.1.3. title], 1.2. title: ...}, 2. title: {...}, ... ```
+All sections (keys and values, and each other) should not be overlapped.
+Subject: $subject
+Abstract: $description
+Syllabus: 
